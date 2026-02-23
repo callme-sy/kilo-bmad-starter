@@ -215,14 +215,14 @@ Circuit breaker should catch this after 3 failures. Check:
 
 ## 📊 Comparison
 
-| Feature | This Setup | bmalph | Kilo Native |
-|---------|------------|--------|-------------|
-| Overnight autonomy | ✅ Yes | ✅ Yes | ⚠️ Manual |
-| Fresh context per step | ✅ Yes | ✅ Yes | ✅ Yes |
-| Zero tolerance gates | ✅ Yes | ⚠️ Circuit breaker | ❌ No |
-| Setup effort | ⚠️ Copy files | ⚠️ npm install | ✅ Built-in |
-| Planning phases | ⚠️ Manual | ✅ BMAD phases | ✅ Architect |
-| Traceability | ✅ Auto-generated | ✅ Ledger | ❌ No |
+| Feature | This Setup | Kilo Native |
+|---------|------------|-------------|
+| Overnight autonomy | ✅ Yes | ⚠️ Manual |
+| Fresh context per step | ✅ Yes | ✅ Yes |
+| Zero tolerance gates | ✅ Yes | ❌ No |
+| Setup effort | ⚠️ Copy files | ✅ Built-in |
+| Planning phases | ✅ BMAD phases | ✅ Architect |
+| Traceability | ✅ Auto-generated | ❌ No |
 
 ---
 
